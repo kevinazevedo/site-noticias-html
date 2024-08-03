@@ -88,6 +88,15 @@ body.fotos #navegacao a#fotos {
     background: red;
 }
 
+#uma-coluna #primario {
+    width: 750px;
+    margin: 0 0 20px 0;
+}
+
+#duas-colunas #primario {
+    width: 555px;
+}
+
 #secundario {
     width: 270px;
     float: left;
@@ -99,7 +108,26 @@ body.fotos #navegacao a#fotos {
     width: 180px;
     float: left;
     margin: 0 0 20px -750px;
-    background: blue;
+}
+
+/* Caixa */
+.caixa {
+    margin: 10px 0;
+    padding: 5px;
+    background: #f3f3f3 url(../img/fundo-caixa.png);
+}
+
+h2 {
+    font-size: 17px;
+    background: #294c71;
+    color: white;
+    padding: 5px;
+}
+
+.caixa-conteudo {
+    background: white;
+    padding: 5px;
+    margin-top: 5px;
 }
 
 /* Rodape */
