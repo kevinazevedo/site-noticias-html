@@ -85,7 +85,6 @@ body.fotos #navegacao a#fotos {
     width: 270px;
     float: left;
     margin: 0 0 20px 195px;
-    background: red;
 }
 
 #uma-coluna #primario {
@@ -101,7 +100,6 @@ body.fotos #navegacao a#fotos {
     width: 270px;
     float: left;
     margin: 0 0 20px 15px;
-    background: green;
 }
 
 #lateral {
@@ -169,6 +167,30 @@ input.submit {
     border: 2px solid #870529;
     margin: 7px 30px 3px 30px;
     font-weight: bold;
+}
+
+/* Formatando imagens */
+img.imagem-principal {
+    width: 98%;
+    border: 3px solid #dfdfdf;
+}
+
+/* Formatando cabeçalhos */
+h3 {
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.9em;
+    padding: 3px;
+}
+
+.destaque h3 {
+    background: #b10333;
+    color: white;
+}
+
+.entrevista h3 {
+    background: red;
+    color: black;
 }
 
 /* Rodape */
